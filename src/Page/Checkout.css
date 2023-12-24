@@ -1,0 +1,54 @@
+.maincontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: auto;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.billing {
+  width: 100%;
+  padding: 20px;
+}
+
+.billing input {
+  padding: 5px;
+  width: 90%;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.billing label {
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.billing h1 {
+  margin-left: 15px;
+}
+
+.yourcart {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  width: 300px;
+  padding: 20px;
+}
+
+.yourcart p {
+  border: solid gainsboro 1px;
+  margin: -1px;
+  padding: 30px;
+}
+
+.shigoption {
+  width: 500px;
+  margin-left: 500px;
+
+  margin-top: -80px;
+}
+
+.payment {
+    margin-left: 500px;
+    margin-top: 60px;
+}

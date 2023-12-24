@@ -1,0 +1,19 @@
+.Cardcontainer {
+    width: 80%;
+    margin: auto;
+  background-color: rgb(232, 232, 232);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.heading {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+}
+
+.heading button {
+    margin: 10px;
+} 
